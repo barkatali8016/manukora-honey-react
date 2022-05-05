@@ -42,7 +42,7 @@ const Header = (props) => {
           <ion-icon name="cart"></ion-icon> ( 1 )
         </button>
       </div>
-      {!cartIsHide && <Cart />}
+      {!cartIsHide && <Cart onCloseClick={cartHandler} />}
     </header>
   );
 };

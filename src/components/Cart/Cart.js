@@ -1,11 +1,14 @@
 import classes from "./Cart.module.css";
 const Cart = (props) => {
   return (
-    <div className={classes["cart-backdrop"]}>
+    <div onClick={props.onCloseClick} className={classes["cart-backdrop"]}>
       <div className={classes["cart-overlay"]}>
         <header className={classes["cart-header"]}>
           <h1>Your Cart</h1>
-          <button className={classes["cart-close-btn"]}>
+          <button
+            onClick={props.onCloseClick}
+            className={classes["cart-close-btn"]}
+          >
             <ion-icon name="close-outline"></ion-icon>
           </button>
         </header>
