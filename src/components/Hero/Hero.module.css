@@ -1,0 +1,36 @@
+.hero-section {
+  background-image: linear-gradient(to right bottom, #ebdcc1, #ebdcc1);
+  background-image: url("../../../public/hero_img.jpg");
+  height: 100vh;
+  position: relative;
+}
+.hero-text__section {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: #231f20;
+  width: 26%;
+}
+.heading-primary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+.hero-text {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+.hero-cta-btn {
+  background-color: #fec34d;
+  border: none;
+  padding: 2rem 4.2rem;
+  border-radius: 9px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+.hero-cta-btn:hover {
+  box-shadow: inset 0 0 1px 1px #231f20;
+}

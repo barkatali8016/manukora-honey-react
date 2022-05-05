@@ -1,0 +1,21 @@
+.section-announcement {
+  background-color: #fec34d;
+  color: #231f20;
+  width: 100%;
+  padding: 1.6rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.announcement-text {
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.4rem;
+}
+.announcement-subscribe-link:link,
+.announcement-subscribe-link:visited,
+.announcement-subscribe-link:active,
+.announcement-subscribe-link:hover {
+  text-decoration: none;
+  color: #231f20;
+  border-bottom: 1px solid #231f20;
+}

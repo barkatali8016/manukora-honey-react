@@ -1,0 +1,61 @@
+.header {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 5rem;
+}
+.left-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+.logo {
+  width: 30%;
+}
+.navigation {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+
+  align-items: center;
+}
+.link a:link,
+.link a:visited {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-decoration: none;
+  color: #231f20;
+}
+.link a:hover,
+.link a:active {
+  color: #231f20;
+}
+.right-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+.btn {
+  background: none;
+  border: none;
+}
+.btn ion-icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  stroke: #231f20;
+  cursor: pointer;
+}
+.cart-btn {
+  border: 2px solid #231f20;
+  padding: 0.5rem 1.5rem;
+  border-radius: 7px;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
