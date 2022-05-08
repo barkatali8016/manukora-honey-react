@@ -3,6 +3,7 @@ const Product = (props) => {
   return (
     <div className={classes.product}>
       <img
+        alt="product details"
         className={classes["product-img"]}
         src={process.env.PUBLIC_URL + "/Products/img1.jpeg"}
       />

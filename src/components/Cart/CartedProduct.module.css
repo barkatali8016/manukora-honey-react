@@ -1,0 +1,65 @@
+.carted-product {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.cart-product {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  justify-content: space-between;
+  margin: 1.6rem 3rem 0 2rem;
+  align-items: center;
+}
+
+.carted-img {
+  width: 10rem;
+}
+.cart-product-text {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  align-items: center;
+  column-gap: 2rem;
+  grid-template-rows: repeat(3, 1fr);
+}
+.cart-product-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.cart-trash-btn {
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+}
+.cart-trash-btn ion-icon {
+  color: #999;
+}
+.cart-product-desc {
+  color: #666;
+  font-size: 1.2rem;
+  transform: translateY(-1.2rem);
+}
+.cart-btn-holder {
+  grid-row: 3;
+}
+.cart-btn {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 0.5rem 1.6rem;
+  font-size: 1.6rem;
+}
+.product-price {
+  grid-row: 3;
+  font-size: 1.2rem;
+}
+.btn-subscribe {
+  margin: 0 2rem;
+}
+.btn-subscribe button {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 1rem;
+  width: 100%;
+  border: 1px solid #000;
+  cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.carted-img {
+  width: 10rem;
+}
+.cart-product-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.product-price {
+  grid-row: 3;
+  font-size: 1.2rem;
+}
+.suggested-product {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.suggested-text-holder {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.suggested-add-btn {
+  font-size: 1.6rem;
+  padding: 0.5rem 2.4rem;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
